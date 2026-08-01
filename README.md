@@ -24,8 +24,8 @@ wordmark: python scripts/make_wordmark_svg.py --mode rock -->
 <h3><code>sankalp@github ~ $ ./links.sh</code></h3>
 <p><b>Developer · Student · Building things that make life easier</b></p>
   
-[![GitHub](https://img.shields.io/badge/GitHub-SankalpPandey--56-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SankalpPandey-56)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sankalp%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sankalppandey56)
-[![Instagram](https://img.shields.io/badge/Instagram-sankalp.pandey__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sankalp.pandey_)
+[(https://img.shields.io/badge/GitHub-SankalpPandey--56-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SankalpPandey-56)
+[(https://img.shields.io/badge/LinkedIn-Sankalp%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankalp-pandey-20361b41a/)
+[(https://img.shields.io/badge/Instagram-sankalp.pandey__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/uhm.sankalp/)
 <br>
 </div>
