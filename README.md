@@ -1,4 +1,6 @@
 <div align="center">
+<!-- profile readme v2 — regenerated with real contribution data; the heatmap
+is rebuilt daily by .github/workflows/update-profile-art.yml -->
 <!-- hero: monochrome ASCII portrait (types in) beside the extruded 3d ascii
 wordmark (wipes in left-to-right, then rocks on its vertical axis).
 widths are picked so both panels land at the same height.
