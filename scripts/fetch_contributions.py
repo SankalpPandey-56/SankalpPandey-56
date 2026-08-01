@@ -29,51 +29,48 @@ OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.
 
 
 class ContributionsParser(HTMLParser):
-    """Grabs per-day cells: <td data-date=... data-count=...> with a <tool-tip>.
+    """GitHub's current markup renders each day as:
 
-    Falls back to the tool-tip text ("9 contributions on …") when data-count
-    is absent from the markup.
+        <td id="contribution-day-component-0-0" data-date="..." data-level="0"
+            class="ContributionCalendar-day"></td>
+        <tool-tip for="contribution-day-component-0-0">5 contributions on …</tool-tip>
+
+    The count lives in the <tool-tip> which is a *sibling* of the td, keyed by
+    the td's id via the tooltip's `for` attribute. We map td ids -> dates,
+    collect tooltip text by `for` id, then merge the two.
     """
 
     def __init__(self):
         super().__init__()
-        self.days = []
-        self._in_td = False
-        self._cur = None
-        self._in_tooltip = False
-        self._tooltip = []
+        self.cells = {}      # td id -> {"date", "level"}
+        self.tooltips = {}   # td id -> tooltip text
+        self._in_tip = False
+        self._tip_for = None
+        self._tip_buf = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == "td" and "data-date" in attrs and \
                 "ContributionCalendar-day" in attrs.get("class", ""):
-            self._in_td = True
-            self._cur = {
+            self.cells[attrs.get("id")] = {
                 "date": attrs["data-date"],
-                "count": int(attrs["data-count"]) if "data-count" in attrs else 0,
+                "level": int(attrs.get("data-level", "0")),
             }
         elif tag == "tool-tip":
-            self._in_tooltip = True
-            self._tooltip = []
+            self._in_tip = True
+            self._tip_for = attrs.get("for")
+            self._tip_buf = []
 
     def handle_endtag(self, tag):
-        if tag == "tool-tip" and self._in_tooltip:
-            self._in_tooltip = False
-            text = "".join(self._tooltip)
-            if self._cur and self._cur["count"] == 0:
-                if re.search(r"no contributions", text, re.I):
-                    self._cur["count"] = 0
-                else:
-                    m = re.match(r"(\d+)", text)
-                    self._cur["count"] = int(m.group(1)) if m else 0
-        elif tag == "td" and self._in_td:
-            if self._cur:
-                self.days.append(self._cur)
-            self._in_td, self._cur = False, None
+        if tag == "tool-tip" and self._in_tip:
+            self._in_tip = False
+            if self._tip_for:
+                self.tooltips[self._tip_for] = "".join(self._tip_buf)
+            self._tip_for = None
 
     def handle_data(self, data):
-        if self._in_tooltip:
-            self._tooltip.append(data)
+        if self._in_tip:
+            self._tip_buf.append(data)
 
 
 def compute_current_streak(days):
@@ -148,11 +145,20 @@ def main():
 
     parser = ContributionsParser()
     parser.feed(html_text)
-    if not parser.days:
+    days = []
+    for td_id, cell in parser.cells.items():
+        tip = parser.tooltips.get(td_id, "")
+        if re.search(r"no contributions", tip, re.I):
+            count = 0
+        else:
+            m = re.match(r"\s*(\d+)", tip)
+            count = int(m.group(1)) if m else 0
+        days.append({"date": cell["date"], "count": count})
+    if not days:
         sys.exit("No contribution cells found — contributions may be hidden, "
                  "or GitHub's markup changed. Check the URL in a browser.")
-    parser.days.sort(key=lambda d: d["date"])
-    data = build_data(parser.days)
+    days.sort(key=lambda d: d["date"])
+    data = build_data(days)
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w") as f:
         json.dump(data, f, indent=2)
