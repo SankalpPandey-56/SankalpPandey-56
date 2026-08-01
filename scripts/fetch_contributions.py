@@ -55,6 +55,7 @@ class ContributionsParser(HTMLParser):
             self.cells[attrs.get("id")] = {
                 "date": attrs["data-date"],
                 "level": int(attrs.get("data-level", "0")),
+                "count": int(attrs["data-count"]) if "data-count" in attrs else None,
             }
         elif tag == "tool-tip":
             self._in_tip = True
@@ -147,12 +148,14 @@ def main():
     parser.feed(html_text)
     days = []
     for td_id, cell in parser.cells.items():
-        tip = parser.tooltips.get(td_id, "")
-        if re.search(r"no contributions", tip, re.I):
-            count = 0
-        else:
-            m = re.match(r"\s*(\d+)", tip)
-            count = int(m.group(1)) if m else 0
+        count = cell["count"]  # data-count attr (older markup), if present
+        if count is None:
+            tip = parser.tooltips.get(td_id, "")
+            if re.search(r"no contributions", tip, re.I):
+                count = 0
+            else:
+                m = re.match(r"\s*(\d+)", tip)
+                count = int(m.group(1)) if m else 0
         days.append({"date": cell["date"], "count": count})
     if not days:
         sys.exit("No contribution cells found — contributions may be hidden, "
