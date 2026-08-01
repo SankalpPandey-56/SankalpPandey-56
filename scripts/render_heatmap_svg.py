@@ -190,9 +190,10 @@ def render(data):
                  f'<tspan fill="{ACCENT}" font-weight="700">{cs} days</tspan>'
                  f'<tspan fill="{MUTED}"> &#183; longest </tspan>'
                  f'<tspan fill="{ACCENT}" font-weight="700">{ls} days</tspan></text>')
-    parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" '
-                 f'text-anchor="end">best day <tspan fill="{GOLD}" font-weight="700">'
-                 f'{best["count"]}</tspan> on {best["date"]}</text>')
+    if total > 0:  # hide on a fresh account with no contributions yet
+        parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" '
+                     f'text-anchor="end">best day <tspan fill="{GOLD}" font-weight="700">'
+                     f'{best["count"]}</tspan> on {best["date"]}</text>')
     parts.append("</svg>")
     return "".join(parts)
 
