@@ -10,7 +10,7 @@ wordmark: python scripts/make_wordmark_svg.py --mode rock -->
 <table>
 <tr>
 <td valign="top"><img src="./ascii.svg" width="370" alt="Sankalp — ASCII portrait" /></td>
-<td valign="top"><img src="./wordmark.svg" width="490" alt="SKP — 3D ASCII wordmark" /></td>
+<td valign="top"><img src="./wordmark.svg" width="490" alt="SAP — 3D ASCII wordmark" /></td>
 </tr>
 </table>
 <br>
