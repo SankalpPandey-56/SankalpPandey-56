@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub profile — live preview</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --fg: #c9d1d9;
+    --dim: #8b949e;
+    --green: #3fb950;
+    --blue: #58a6ff;
+    --border: #21262d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(1200px 600px at 50% -10%, #161b22, var(--bg));
+    color: var(--fg);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    padding: 40px 16px;
+  }
+  .stage { width: min(960px, 100%); }
+  .block {
+    background: #010409;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 20px;
+    margin-bottom: 22px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.5);
+  }
+  .block h3 { margin: 0 0 14px; font-weight: 600; font-size: 14px; color: var(--dim); }
+  .block h3 .prompt { color: var(--green); }
+  .block h3 .cmd { color: var(--blue); }
+  .heatmap img { display: block; width: 100%; }
+  table { border-collapse: collapse; width: 100%; }
+  td { vertical-align: top; }
+  td:first-child { width: 43%; padding-right: 10px; }
+  td:last-child { width: 57%; }
+  img { max-width: 100%; height: auto; display: block; }
+  .note { color: var(--dim); font-size: 12px; margin-top: 16px; line-height: 1.6; }
+  .note code { color: var(--fg); background: #161b22; padding: 1px 6px; border-radius: 4px; }
+  .badges a {
+    display: inline-block; margin: 4px 6px 4px 0; padding: 7px 14px;
+    border: 1px solid var(--border); border-radius: 6px; color: var(--fg);
+    text-decoration: none; font-size: 12px; transition: border-color .15s, transform .15s;
+  }
+  .badges a:hover { border-color: var(--blue); transform: translateY(-1px); }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="block">
+      <h3><span class="prompt">sankalp@github ~ $</span> <span class="cmd">whoami</span></h3>
+      <table>
+        <tr>
+          <td><img src="./ascii.svg" alt="ASCII portrait"></td>
+          <td><img src="./wordmark.svg" alt="3D ASCII wordmark"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="block">
+      <h3><span class="prompt">sankalp@github ~ $</span> <span class="cmd">./contributions.sh</span></h3>
+      <div class="heatmap"><img src="./contrib-heatmap.svg" alt="contribution heatmap"></div>
+    </div>
+
+    <div class="block">
+      <h3><span class="prompt">sankalp@github ~ $</span> <span class="cmd">./links.sh</span></h3>
+      <div class="badges">
+        <a href="https://github.com/SankalpPandey-56">GitHub</a>
+        <a href="https://linkedin.com/in/sankalppandey56">LinkedIn</a>
+        <a href="https://www.instagram.com/sankalp.pandey_">Instagram</a>
+      </div>
+    </div>
+
+    <p class="note">
+      Local preview of the terminal layout. In the README, images are embedded with
+      <code>&lt;img src="./…"&gt;</code> and the animations (SMIL / CSS keyframes) play
+      because they live inside each SVG. The portrait and wordmark only refresh when you
+      regenerate them; the heatmap is rebuilt daily by GitHub Actions.
+    </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+# Optional dependencies — ONLY needed for the photo portrait pipeline and a
+# crisp TTF wordmark. The daily GitHub Actions workflow and the default
+# (bitmap-font) wordmark are pure Python standard library.
+#
+#   python -m venv .venv && source .venv/bin/activate
+#   pip install -r scripts/requirements.txt
+#
+numpy
+pillow
+opencv-python
+rembg
