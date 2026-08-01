@@ -24,8 +24,9 @@ wordmark: python scripts/make_wordmark_svg.py --mode rock -->
 <h3><code>sankalp@github ~ $ ./links.sh</code></h3>
 <p><b>Developer · Student · Building things that make life easier</b></p>
   
-[(https://img.shields.io/badge/GitHub-SankalpPandey--56-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SankalpPandey-56)
-[(https://img.shields.io/badge/LinkedIn-Sankalp%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankalp-pandey-20361b41a/)
-[(https://img.shields.io/badge/Instagram-sankalp.pandey__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/uhm.sankalp/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-builtbysankalp-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://sankalppandey-56.github.io/builtbysankalp/#top)
+[![GitHub](https://img.shields.io/badge/GitHub-SankalpPandey--56-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SankalpPandey-56)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sankalp%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankalp-pandey-20361b41a/)
+[![Instagram](https://img.shields.io/badge/Instagram-uhm.sankalp-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/uhm.sankalp)
 <br>
 </div>
