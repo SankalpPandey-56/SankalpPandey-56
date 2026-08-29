@@ -1,22 +1,22 @@
 {
   "username": "SankalpPandey-56",
-  "generated_at": "2026-08-28T18:43:33Z",
+  "generated_at": "2026-08-29T12:41:44Z",
   "range": {
     "start": "2025-08-24",
+    "end": "2026-08-29"
+  },
+  "total_contributions": 158,
+  "active_days": 34,
+  "avg_per_active_day": 4.6,
+  "current_streak": {
+    "length": 29,
+    "start": "2026-07-31",
     "end": "2026-08-28"
   },
-  "total_contributions": 157,
-  "active_days": 33,
-  "avg_per_active_day": 4.8,
-  "current_streak": {
-    "length": 28,
-    "start": "2026-07-31",
-    "end": "2026-08-27"
-  },
   "longest_streak": {
-    "length": 28,
+    "length": 29,
     "start": "2026-07-31",
-    "end": "2026-08-27"
+    "end": "2026-08-28"
   },
   "best_day": {
     "date": "2026-08-01",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 120
+      "total": 121
     }
   ],
   "days": [
@@ -1555,6 +1555,10 @@
     },
     {
       "date": "2026-08-28",
+      "count": 1
+    },
+    {
+      "date": "2026-08-29",
       "count": 0
     }
   ]
