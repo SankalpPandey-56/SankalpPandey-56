@@ -1,8 +1,9 @@
-name: Update profile art
+name: Update profile art & contributions
 
 on:
   schedule:
-    - cron: "17 6 * * *"     # ~06:17 UTC daily
+    # Runs daily at 00:15 UTC (ensures a fresh commit every single calendar day)
+    - cron: "15 0 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -11,23 +12,46 @@ permissions:
   contents: write
 
 jobs:
-  heatmap:
+  update-profile:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # No pip install needed: fetch_contributions.py and
-      # render_heatmap_svg.py are pure standard library. Add
-      #   - run: pip install -r scripts/requirements.txt
-      # here if you ever pull heavy deps into the daily job.
-      - run: python scripts/fetch_contributions.py
-      - run: python scripts/render_heatmap_svg.py
+      # 1. Scrape contributions and render heatmap SVG
+      - name: Refresh Heatmap Data
+        run: |
+          python scripts/fetch_contributions.py
+          python scripts/render_heatmap_svg.py
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      # 2. Update Dynamic Recent Activity & Daily Tip in README.md
+      - name: Update Dynamic README Sections
+        run: |
+          python scripts/update_readme.py
+
+      # 3. Generate the animated Contribution Snake SVG
+      - name: Generate Contribution Snake
+        uses: Platane/snk/svg-only@v3
         with:
-          commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+        continue-on-error: true
+
+      # 4. Commit and push back to main with verified author details
+      # Setting commit_user_name, commit_user_email, and commit_author
+      # ensures GitHub attributes this commit to your account so the box turns green!
+      - name: Commit and Push Daily Update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(profile): daily telemetry update [skip ci]"
+          commit_user_name: "SankalpPandey-56"
+          commit_user_email: "sankalppandey.56@gmail.com"
+          commit_author: "SankalpPandey-56 <sankalppandey.56@gmail.com>"
+          file_pattern: "README.md data/contributions.json contrib-heatmap.svg github-contribution-grid-snake*.svg"
