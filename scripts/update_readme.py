@@ -58,12 +58,16 @@ def get_recent_activity():
             items.append(f"- Pushed commits to [**{repo_name}**]({repo_url})")
         elif ev_type == "PullRequestEvent":
             action = ev.get("payload", {}).get("action", "contributed to")
-            pr = ev.get("payload", {}).get("pull_request", {})
-            title = pr.get("title", "")
-            pr_url = pr.get("html_url", repo_url)
-            items.append(f"- PR {action} on [**{repo_name}**]({repo_url}): [{title}]({pr_url})")
+            pr_num = ev.get("payload", {}).get("pull_request", {}).get("number")
+            if pr_num:
+                pr_url = f"https://github.com/{repo_name}/pull/{pr_num}"
+                items.append(f"- PR [**#{pr_num}**]({pr_url}) ({action}) on [**{repo_name}**]({repo_url})")
+            else:
+                items.append(f"- PR ({action}) on [**{repo_name}**]({repo_url})")
         elif ev_type == "CreateEvent" and ev.get("payload", {}).get("ref_type") == "repository":
             items.append(f"- Created repository [**{repo_name}**]({repo_url})")
+        elif ev_type == "ForkEvent":
+            items.append(f"- Forked repository [**{repo_name}**]({repo_url})")
 
         if len(items) >= 5:
             break
