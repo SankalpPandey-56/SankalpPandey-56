@@ -44,6 +44,11 @@ jobs:
             github-contribution-grid-snake-dark.svg?palette=github-dark
         continue-on-error: true
 
+      # 3.5 Convert Snake SVG into forward-eating and reverse-reconstructing animation
+      - name: Make Snake Reconstruct & Trace Back
+        run: |
+          python scripts/reconstruct_snake_svg.py
+
       # 4. Commit and push back to main with verified author details
       # Setting commit_user_name, commit_user_email, and commit_author
       # ensures GitHub attributes this commit to your account so the box turns green!
