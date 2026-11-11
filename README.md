@@ -95,11 +95,3 @@
 </picture>
 
 <br><br>
-
-<!-- Daily Heatmap Chart -->
-<img src="./contrib-heatmap.svg" width="860" alt="Sankalp's Contribution Graph" />
-
-<br>
-<sub><i>Telemetry, snake animation, and insights auto-updated and committed daily via GitHub Actions</i></sub>
-
-</div>
