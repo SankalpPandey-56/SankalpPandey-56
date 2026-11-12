@@ -66,7 +66,7 @@
 ### <code>sankalp@github ~ $ ./daily-insight.sh</code>
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Git commits are immutable snapshots of your repository tree identified by cryptographic hashes, not file diffs.
+> **💡 Systems Tip of the Day:** Irreversible system actions (such as dropping databases or yanking packages) benefit significantly from proactive audit trails and human approval guardrails.
 <!-- END_SECTION:daily_tip -->
 
 <br>
@@ -74,11 +74,8 @@
 ### <code>sankalp@github ~ $ ./recent-activity.sh --limit 5</code>
 
 <!-- START_SECTION:recent_activity -->
-- PR [**#70**](https://github.com/S-AI-Projects/Data-Science-For-Beginners/pull/70) (opened) on [**S-AI-Projects/Data-Science-For-Beginners**](https://github.com/S-AI-Projects/Data-Science-For-Beginners)
-- PR [**#183**](https://github.com/batrapulkit/squidbrake/pull/183) (merged) on [**batrapulkit/squidbrake**](https://github.com/batrapulkit/squidbrake)
-- Forked repository [**S-AI-Projects/Data-Science-For-Beginners**](https://github.com/S-AI-Projects/Data-Science-For-Beginners)
-- Pushed commits to [**SankalpPandey-56/termlens**](https://github.com/SankalpPandey-56/termlens)
-- PR [**#728**](https://github.com/vyncint/termlens/pull/728) (merged) on [**vyncint/termlens**](https://github.com/vyncint/termlens)
+- Pushed commits to [**SankalpPandey-56/sankalp-portfolio-2026**](https://github.com/SankalpPandey-56/sankalp-portfolio-2026)
+- PR [**#80**](https://github.com/S-AI-Projects/Data-Science-For-Beginners/pull/80) (opened) on [**S-AI-Projects/Data-Science-For-Beginners**](https://github.com/S-AI-Projects/Data-Science-For-Beginners)
 <!-- END_SECTION:recent_activity -->
 
 <br>
