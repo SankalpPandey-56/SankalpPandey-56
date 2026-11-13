@@ -66,7 +66,7 @@
 ### <code>sankalp@github ~ $ ./daily-insight.sh</code>
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Irreversible system actions (such as dropping databases or yanking packages) benefit significantly from proactive audit trails and human approval guardrails.
+> **💡 Systems Tip of the Day:** Minimizing heap allocations in inner loops is often the fastest path to double performance in systems-level software.
 <!-- END_SECTION:daily_tip -->
 
 <br>
@@ -74,8 +74,8 @@
 ### <code>sankalp@github ~ $ ./recent-activity.sh --limit 5</code>
 
 <!-- START_SECTION:recent_activity -->
+- Pushed commits to [**SankalpPandey-56/sankalp-portfolio**](https://github.com/SankalpPandey-56/sankalp-portfolio)
 - Pushed commits to [**SankalpPandey-56/sankalp-portfolio-2026**](https://github.com/SankalpPandey-56/sankalp-portfolio-2026)
-- PR [**#80**](https://github.com/S-AI-Projects/Data-Science-For-Beginners/pull/80) (opened) on [**S-AI-Projects/Data-Science-For-Beginners**](https://github.com/S-AI-Projects/Data-Science-For-Beginners)
 <!-- END_SECTION:recent_activity -->
 
 <br>
