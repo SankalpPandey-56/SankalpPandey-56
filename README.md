@@ -20,7 +20,7 @@
 
 <br>
 
-### <code>sankalp@github ~ $ ./hacktoberfest-achievements.sh</code>
+### 🎃 Hacktoberfest & Open Source
 
 | Initiative | Achievement / Contribution | Tech Stack | Quick Links |
 | :--- | :--- | :--- | :--- |
@@ -31,7 +31,7 @@
 
 <br>
 
-### <code>sankalp@github ~ $ ./featured-projects.sh</code>
+### 🛠️ Featured Engineering Projects
 
 | Project | Focus | Description | Stack | Link |
 | :--- | :--- | :--- | :--- | :--- |
@@ -42,7 +42,7 @@
 
 <br>
 
-### <code>sankalp@github ~ $ ./stack.sh --visual</code>
+### 💻 Systems & Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=rust,python,ts,cpp,swift,bash,threejs,nextjs,react,tailwind,postgres,supabase,docker,git,linux,githubactions&theme=dark&perline=8" alt="Tech Stack Icons" />
@@ -52,7 +52,7 @@
 
 <div align="center">
 
-### <code>sankalp@github ~ $ ./telemetry.sh --streak</code>
+### 🔥 Activity Streak
 
 <!-- Live Neon Streak Dashboard -->
 <a href="https://github.com/SankalpPandey-56">
@@ -63,7 +63,7 @@
 
 <br>
 
-### <code>sankalp@github ~ $ ./daily-insight.sh</code>
+### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
 > **💡 Systems Tip of the Day:** Using HTTP/2 or HTTP/3 multiplexing eliminates head-of-line blocking for concurrent network streams.
@@ -71,7 +71,7 @@
 
 <br>
 
-### <code>sankalp@github ~ $ ./pr-telemetry.sh --realtime</code>
+### ⚡ Live PR Telemetry
 
 <!-- START_SECTION:pr_telemetry -->
 <div align="center">
@@ -100,7 +100,7 @@
 
 <div align="center">
 
-### <code>sankalp@github ~ $ ./contributions.sh --stream</code>
+### 📈 Contribution Stream
 
 <!-- Animated Snake eating the contribution dots -->
 <picture>
@@ -110,3 +110,11 @@
 </picture>
 
 <br><br>
+
+<!-- Daily Heatmap Chart -->
+<img src="./contrib-heatmap.svg" width="860" alt="Sankalp's Contribution Graph" />
+
+<br>
+<sub><i>Telemetry, snake animation, and insights auto-updated and committed daily via GitHub Actions</i></sub>
+
+</div>
