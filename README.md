@@ -71,12 +71,30 @@
 
 <br>
 
-### <code>sankalp@github ~ $ ./recent-activity.sh --limit 5</code>
+### <code>sankalp@github ~ $ ./pr-telemetry.sh --realtime</code>
 
-<!-- START_SECTION:recent_activity -->
-- Pushed commits to [**SankalpPandey-56/sankalp-portfolio**](https://github.com/SankalpPandey-56/sankalp-portfolio)
-- Pushed commits to [**SankalpPandey-56/sankalp-portfolio-2026**](https://github.com/SankalpPandey-56/sankalp-portfolio-2026)
-<!-- END_SECTION:recent_activity -->
+<!-- START_SECTION:pr_telemetry -->
+<div align="center">
+
+<a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/PRs_Sent-45-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8&labelColor=161b22" alt="PRs Sent" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Amerged"><img src="https://img.shields.io/badge/Merged_%26_Shipped-18-8957e5?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=161b22" alt="PRs Merged" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Aopen"><img src="https://img.shields.io/badge/In_Flight-11-238636?style=for-the-badge&logo=gitpullrequest&logoColor=3fb950&labelColor=161b22" alt="PRs Open" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/Merge_Rate-40%25-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="Merge Rate" /></a>
+
+</div>
+
+| Rank | Target Repository | Merged PRs | Focus / Ecosystem |
+| :---: | :--- | :---: | :--- |
+| 🥇 | [**batrapulkit/squidbrake**](https://github.com/batrapulkit/squidbrake) | `6 merged` | AI agent change control, human-in-the-loop governance & audit trails |
+| 🥈 | [**vyncint/termlens**](https://github.com/vyncint/termlens) | `2 merged` | Headless end-to-end testing engine for CLI & TUI apps in Rust |
+| 🥉 | [**Avenx-JS/avenx-js**](https://github.com/Avenx-JS/avenx-js) | `2 merged` | Compiler-driven JavaScript framework with proxy-based reactivity |
+
+| PR | Target Repository | Merged Contribution | Shipped Date |
+| :---: | :--- | :--- | :---: |
+| [**#183**](https://github.com/batrapulkit/squidbrake/pull/183) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: classify erasing run history and logs as irreversible | `Nov 10, 2026` |
+| [**#182**](https://github.com/batrapulkit/squidbrake/pull/182) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: classify skipping git hooks as irreversible | `Nov 10, 2026` |
+| [**#186**](https://github.com/batrapulkit/squidbrake/pull/186) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: classify Cassandra, InfluxDB, etcd, Podman, and CDK deletes as irr... | `Nov 10, 2026` |
+| [**#728**](https://github.com/vyncint/termlens/pull/728) | [`vyncint/termlens`](https://github.com/vyncint/termlens) | docs: explain release notes extractor link definitions | `Nov 06, 2026` |
+| [**#727**](https://github.com/vyncint/termlens/pull/727) | [`vyncint/termlens`](https://github.com/vyncint/termlens) | docs: update unsafe block count from five to eight | `Nov 05, 2026` |
+
+<!-- END_SECTION:pr_telemetry -->
 
 <br>
 

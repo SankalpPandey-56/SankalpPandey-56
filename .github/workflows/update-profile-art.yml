@@ -29,8 +29,10 @@ jobs:
           python scripts/fetch_contributions.py
           python scripts/render_heatmap_svg.py
 
-      # 2. Update Dynamic Recent Activity & Daily Tip in README.md
+      # 2. Update Dynamic Telemetry, PR Metrics & Daily Tip in README.md
       - name: Update Dynamic README Sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/update_readme.py
 
