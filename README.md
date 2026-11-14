@@ -66,7 +66,7 @@
 ### <code>sankalp@github ~ $ ./daily-insight.sh</code>
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Minimizing heap allocations in inner loops is often the fastest path to double performance in systems-level software.
+> **💡 Systems Tip of the Day:** Using HTTP/2 or HTTP/3 multiplexing eliminates head-of-line blocking for concurrent network streams.
 <!-- END_SECTION:daily_tip -->
 
 <br>
