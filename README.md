@@ -5,7 +5,7 @@
 
 <!-- Real-time Animated Typing Terminal Subtitle -->
 <a href="https://github.com/SankalpPandey-56">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+headless+PTY+engines+in+Rust;Enforcing+tamper-evident+guardrails+for+AI+agents;Turning+MacBook+lid+sensors+into+programmable+hardware;Transforming+2D+floorplans+into+3D+worlds+with+Gemma;Contributor+to+Kestra%2C+Supabase%2C+and+Twine" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+headless+PTY+engines+in+Rust;Developing+concurrent+systems+%26+tools+in+Go;Enforcing+tamper-evident+guardrails+for+AI+agents;Turning+MacBook+lid+sensors+into+programmable+hardware;Transforming+2D+floorplans+into+3D+worlds+with+Gemma;Contributor+to+Kestra%2C+Supabase%2C+and+Twine" alt="Typing SVG" />
 </a>
 
 <br><br>
@@ -45,7 +45,7 @@
 ### 💻 Systems & Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,python,ts,cpp,swift,bash,threejs,nextjs,react,tailwind,postgres,supabase,docker,git,linux,githubactions&theme=dark&perline=8" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=rust,go,python,ts,cpp,swift,bash,linux,docker,nextjs,react,threejs,tailwind,postgres,supabase,git,githubactions&theme=dark&perline=9" alt="Tech Stack Icons" />
 </div>
 
 <br>
@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Safe systems code isolates `unsafe` blocks into well-tested, tightly scoped abstractions that rigorously enforce invariants.
+> **💡 Systems Tip of the Day:** In Unix, pseudo-terminals (PTYs) decouple the display terminal from the executing process, allowing programs like `termlens` to run full terminal applications headlessly with true ANSI sequence fidelity.
 <!-- END_SECTION:daily_tip -->
 
 <br>

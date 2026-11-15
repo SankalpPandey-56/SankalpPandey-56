@@ -23,6 +23,7 @@ TIPS = [
     "Git commits are immutable snapshots of your repository tree identified by cryptographic hashes, not file diffs.",
     "Irreversible system actions (such as dropping databases or yanking packages) benefit significantly from proactive audit trails and human approval guardrails.",
     "Minimizing heap allocations in inner loops is often the fastest path to double performance in systems-level software.",
+    "Go's lightweight goroutines and CSP channels provide seamless concurrency with minimal memory overhead compared to traditional OS threads.",
     "Using HTTP/2 or HTTP/3 multiplexing eliminates head-of-line blocking for concurrent network streams.",
     "Safe systems code isolates `unsafe` blocks into well-tested, tightly scoped abstractions that rigorously enforce invariants."
 ]
