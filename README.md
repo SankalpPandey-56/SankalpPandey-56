@@ -97,24 +97,3 @@
 <!-- END_SECTION:pr_telemetry -->
 
 <br>
-
-<div align="center">
-
-### 📈 Contribution Stream
-
-<!-- Animated Snake eating the contribution dots -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
-</picture>
-
-<br><br>
-
-<!-- Daily Heatmap Chart -->
-<img src="./contrib-heatmap.svg" width="860" alt="Sankalp's Contribution Graph" />
-
-<br>
-<sub><i>Telemetry, snake animation, and insights auto-updated and committed daily via GitHub Actions</i></sub>
-
-</div>
