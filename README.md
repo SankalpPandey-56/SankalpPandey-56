@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** In Unix, pseudo-terminals (PTYs) decouple the display terminal from the executing process, allowing programs like `termlens` to run full terminal applications headlessly with true ANSI sequence fidelity.
+> **💡 Systems Tip of the Day:** Rust's borrow checker guarantees memory safety and data-race prevention at compile time without requiring a garbage collector.
 <!-- END_SECTION:daily_tip -->
 
 <br>
