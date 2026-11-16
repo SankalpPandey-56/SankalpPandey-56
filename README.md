@@ -97,3 +97,19 @@
 <!-- END_SECTION:pr_telemetry -->
 
 <br>
+<!-- END_SECTION:pr_telemetry -->
+
+<br>
+
+<div align="center">
+
+### 📈 Contribution Stream
+
+<!-- Animated Snake eating the contribution dots -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="./github-contribution-grid-snake-dark.svg" width="860" />
+</picture>
+
+<br><br>
