@@ -56,7 +56,7 @@
 
 <!-- Live Neon Streak Dashboard -->
 <a href="https://github.com/SankalpPandey-56">
-  <img src="https://streak-stats.demolab.com?user=SankalpPandey-56&theme=dark&background=0d1117&border=30363d&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakNum=38bdf8&sideNums=ffffff&currStreakLabel=38bdf8&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=SankalpPandey-56&theme=dark&background=0d1117&border=30363d&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakNum=38bdf8&sideNums=ffffff&currStreakLabel=38bdf8&sideLabels=8b949e&dates=8b949e&timezone=Asia/Kolkata" alt="GitHub Streak Stats" />
 </a>
 
 </div>
@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Rust's borrow checker guarantees memory safety and data-race prevention at compile time without requiring a garbage collector.
+> **💡 Systems Tip of the Day:** Declarative orchestration with tools like Kestra allows complex multi-step dependency graphs to be version-controlled and tested as code.
 <!-- END_SECTION:daily_tip -->
 
 <br>
@@ -76,27 +76,24 @@
 <!-- START_SECTION:pr_telemetry -->
 <div align="center">
 
-<a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/PRs_Sent-48-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8&labelColor=161b22" alt="PRs Sent" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Amerged"><img src="https://img.shields.io/badge/Merged_%26_Shipped-19-8957e5?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=161b22" alt="PRs Merged" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Aopen"><img src="https://img.shields.io/badge/In_Flight-13-238636?style=for-the-badge&logo=gitpullrequest&logoColor=3fb950&labelColor=161b22" alt="PRs Open" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/Merge_Rate-40%25-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="Merge Rate" /></a>
+<a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/PRs_Sent-54-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8&labelColor=161b22" alt="PRs Sent" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Amerged"><img src="https://img.shields.io/badge/Merged_%26_Shipped-23-8957e5?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=161b22" alt="PRs Merged" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Aopen"><img src="https://img.shields.io/badge/In_Flight-14-238636?style=for-the-badge&logo=gitpullrequest&logoColor=3fb950&labelColor=161b22" alt="PRs Open" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/Merge_Rate-43%25-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="Merge Rate" /></a>
 
 </div>
 
 | Rank | Target Repository | Merged PRs | Focus / Ecosystem |
 | :---: | :--- | :---: | :--- |
 | 🥇 | [**batrapulkit/squidbrake**](https://github.com/batrapulkit/squidbrake) | `6 merged` | AI agent change control, human-in-the-loop governance & audit trails |
-| 🥈 | [**vyncint/termlens**](https://github.com/vyncint/termlens) | `2 merged` | Headless end-to-end testing engine for CLI & TUI apps in Rust |
-| 🥉 | [**Avenx-JS/avenx-js**](https://github.com/Avenx-JS/avenx-js) | `2 merged` | Compiler-driven JavaScript framework with proxy-based reactivity |
+| 🥈 | [**FROWNINGdev/orm-lens**](https://github.com/FROWNINGdev/orm-lens) | `3 merged` | Automated migration risk analysis & schema intelligence for ORMs |
+| 🥉 | [**SankalpPandey-56/Beyond-2D**](https://github.com/SankalpPandey-56/Beyond-2D) | `2 merged` | AI spatial engine converting 2D floor plans into interactive 3D |
 
 | PR | Target Repository | Merged Contribution | Shipped Date |
 | :---: | :--- | :--- | :---: |
+| [**#283**](https://github.com/FROWNINGdev/orm-lens/pull/283) | [`FROWNINGdev/orm-lens`](https://github.com/FROWNINGdev/orm-lens) | fix(migration-risk): treat annotated or partly computed dependencies as unknown | `Nov 17, 2026` |
+| [**#1**](https://github.com/SankalpPandey-56/Beyond-2D/pull/1) | [`SankalpPandey-56/Beyond-2D`](https://github.com/SankalpPandey-56/Beyond-2D) | feat: 10 Curated Architectural Presets, Split-Screen Slider, and UI Redesign | `Nov 16, 2026` |
+| [**#2**](https://github.com/SankalpPandey-56/Beyond-2D/pull/2) | [`SankalpPandey-56/Beyond-2D`](https://github.com/SankalpPandey-56/Beyond-2D) | feat: Light-Mode Studio, Day & Night Visualization System, 2D/3D Comparison Worksp... | `Nov 16, 2026` |
+| [**#285**](https://github.com/FROWNINGdev/orm-lens/pull/285) | [`FROWNINGdev/orm-lens`](https://github.com/FROWNINGdev/orm-lens) | fix(parser): recognise aliased model roots and key inheritance cycles by (file, cl... | `Nov 16, 2026` |
 | [**#262**](https://github.com/FROWNINGdev/orm-lens/pull/262) | [`FROWNINGdev/orm-lens`](https://github.com/FROWNINGdev/orm-lens) | fix(signals): resolve aliased receiver imports | `Nov 14, 2026` |
-| [**#183**](https://github.com/batrapulkit/squidbrake/pull/183) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: classify erasing run history and logs as irreversible | `Nov 10, 2026` |
-| [**#182**](https://github.com/batrapulkit/squidbrake/pull/182) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: classify skipping git hooks as irreversible | `Nov 10, 2026` |
-| [**#186**](https://github.com/batrapulkit/squidbrake/pull/186) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: classify Cassandra, InfluxDB, etcd, Podman, and CDK deletes as irr... | `Nov 10, 2026` |
-| [**#728**](https://github.com/vyncint/termlens/pull/728) | [`vyncint/termlens`](https://github.com/vyncint/termlens) | docs: explain release notes extractor link definitions | `Nov 06, 2026` |
 
-<!-- END_SECTION:pr_telemetry -->
-
-<br>
 <!-- END_SECTION:pr_telemetry -->
 
 <br>
@@ -113,3 +110,11 @@
 </picture>
 
 <br><br>
+
+<!-- Daily Heatmap Chart -->
+<img src="./contrib-heatmap.svg" width="860" alt="Sankalp's Contribution Graph" />
+
+<br>
+<sub><i>Telemetry, snake animation, and insights auto-updated and committed daily via GitHub Actions</i></sub>
+
+</div>

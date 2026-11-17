@@ -30,6 +30,8 @@ TIPS = [
 
 REPO_DESCRIPTIONS = {
     "batrapulkit/squidbrake": "AI agent change control, human-in-the-loop governance & audit trails",
+    "FROWNINGdev/orm-lens": "Automated migration risk analysis & schema intelligence for ORMs",
+    "SankalpPandey-56/Beyond-2D": "AI spatial engine converting 2D floor plans into interactive 3D",
     "vyncint/termlens": "Headless end-to-end testing engine for CLI & TUI apps in Rust",
     "Avenx-JS/avenx-js": "Compiler-driven JavaScript framework with proxy-based reactivity",
     "activist-org/activist": "Community platform connecting grassroots activists & organizations",
