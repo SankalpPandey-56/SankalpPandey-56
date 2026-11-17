@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-update
+  cancel-in-progress: true
+
 jobs:
   update-profile:
     runs-on: ubuntu-latest
