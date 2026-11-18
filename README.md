@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Declarative orchestration with tools like Kestra allows complex multi-step dependency graphs to be version-controlled and tested as code.
+> **💡 Systems Tip of the Day:** Three.js leverages WebGL to render hardware-accelerated 3D scenes right inside the browser canvas without plugins.
 <!-- END_SECTION:daily_tip -->
 
 <br>
