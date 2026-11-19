@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Three.js leverages WebGL to render hardware-accelerated 3D scenes right inside the browser canvas without plugins.
+> **💡 Systems Tip of the Day:** Accelerometers in modern MacBooks can be queried via low-level I/O Kit frameworks, turning physical lid taps into input triggers.
 <!-- END_SECTION:daily_tip -->
 
 <br>
