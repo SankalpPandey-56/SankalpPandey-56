@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Accelerometers in modern MacBooks can be queried via low-level I/O Kit frameworks, turning physical lid taps into input triggers.
+> **💡 Systems Tip of the Day:** Git commits are immutable snapshots of your repository tree identified by cryptographic hashes, not file diffs.
 <!-- END_SECTION:daily_tip -->
 
 <br>
