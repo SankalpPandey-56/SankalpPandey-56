@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Using HTTP/2 or HTTP/3 multiplexing eliminates head-of-line blocking for concurrent network streams.
+> **💡 Systems Tip of the Day:** Safe systems code isolates `unsafe` blocks into well-tested, tightly scoped abstractions that rigorously enforce invariants.
 <!-- END_SECTION:daily_tip -->
 
 <br>
@@ -76,7 +76,7 @@
 <!-- START_SECTION:pr_telemetry -->
 <div align="center">
 
-<a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/PRs_Sent-58-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8&labelColor=161b22" alt="PRs Sent" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Amerged"><img src="https://img.shields.io/badge/Merged_%26_Shipped-26-8957e5?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=161b22" alt="PRs Merged" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Aopen"><img src="https://img.shields.io/badge/In_Flight-15-238636?style=for-the-badge&logo=gitpullrequest&logoColor=3fb950&labelColor=161b22" alt="PRs Open" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/Merge_Rate-45%25-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="Merge Rate" /></a>
+<a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/PRs_Sent-63-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8&labelColor=161b22" alt="PRs Sent" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Amerged"><img src="https://img.shields.io/badge/Merged_%26_Shipped-27-8957e5?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=161b22" alt="PRs Merged" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Aopen"><img src="https://img.shields.io/badge/In_Flight-15-238636?style=for-the-badge&logo=gitpullrequest&logoColor=3fb950&labelColor=161b22" alt="PRs Open" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/Merge_Rate-43%25-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="Merge Rate" /></a>
 
 </div>
 
@@ -88,11 +88,11 @@
 
 | PR | Target Repository | Merged Contribution | Shipped Date |
 | :---: | :--- | :--- | :---: |
+| [**#23102**](https://github.com/kestra-io/kestra/pull/23102) | [`kestra-io/kestra`](https://github.com/kestra-io/kestra) | fix(kv): hide custom duration box when Never is selected in expiration | `Nov 25, 2026` |
 | [**#252**](https://github.com/batrapulkit/squidbrake/pull/252) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: containers that get control of this machine | `Nov 20, 2026` |
 | [**#250**](https://github.com/batrapulkit/squidbrake/pull/250) | [`batrapulkit/squidbrake`](https://github.com/batrapulkit/squidbrake) | Command reader: classify railway down and gh repo archive as irreversible | `Nov 19, 2026` |
 | [**#66**](https://github.com/kestra-io/libs/pull/66) | [`kestra-io/libs`](https://github.com/kestra-io/libs) | fix(python): validate metric types and tags, flush on send, and fix callable timer | `Nov 18, 2026` |
 | [**#283**](https://github.com/FROWNINGdev/orm-lens/pull/283) | [`FROWNINGdev/orm-lens`](https://github.com/FROWNINGdev/orm-lens) | fix(migration-risk): treat annotated or partly computed dependencies as unknown | `Nov 17, 2026` |
-| [**#1**](https://github.com/SankalpPandey-56/Beyond-2D/pull/1) | [`SankalpPandey-56/Beyond-2D`](https://github.com/SankalpPandey-56/Beyond-2D) | feat: 10 Curated Architectural Presets, Split-Screen Slider, and UI Redesign | `Nov 16, 2026` |
 
 <!-- END_SECTION:pr_telemetry -->
 
