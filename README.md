@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Safe systems code isolates `unsafe` blocks into well-tested, tightly scoped abstractions that rigorously enforce invariants.
+> **💡 Systems Tip of the Day:** In Unix, pseudo-terminals (PTYs) decouple the display terminal from the executing process, allowing programs like `termlens` to run full terminal applications headlessly with true ANSI sequence fidelity.
 <!-- END_SECTION:daily_tip -->
 
 <br>
@@ -76,7 +76,7 @@
 <!-- START_SECTION:pr_telemetry -->
 <div align="center">
 
-<a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/PRs_Sent-64-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8&labelColor=161b22" alt="PRs Sent" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Amerged"><img src="https://img.shields.io/badge/Merged_%26_Shipped-27-8957e5?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=161b22" alt="PRs Merged" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Aopen"><img src="https://img.shields.io/badge/In_Flight-16-238636?style=for-the-badge&logo=gitpullrequest&logoColor=3fb950&labelColor=161b22" alt="PRs Open" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/Merge_Rate-42%25-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="Merge Rate" /></a>
+<a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/PRs_Sent-64-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8&labelColor=161b22" alt="PRs Sent" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Amerged"><img src="https://img.shields.io/badge/Merged_%26_Shipped-27-8957e5?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=161b22" alt="PRs Merged" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr+is%3Aopen"><img src="https://img.shields.io/badge/In_Flight-17-238636?style=for-the-badge&logo=gitpullrequest&logoColor=3fb950&labelColor=161b22" alt="PRs Open" /></a> <a href="https://github.com/search?q=author%3ASankalpPandey-56+type%3Apr"><img src="https://img.shields.io/badge/Merge_Rate-42%25-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="Merge Rate" /></a>
 
 </div>
 
