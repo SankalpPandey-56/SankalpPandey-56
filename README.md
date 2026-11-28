@@ -66,7 +66,7 @@
 ### 💡 Systems Insight
 
 <!-- START_SECTION:daily_tip -->
-> **💡 Systems Tip of the Day:** Rust's borrow checker guarantees memory safety and data-race prevention at compile time without requiring a garbage collector.
+> **💡 Systems Tip of the Day:** Declarative orchestration with tools like Kestra allows complex multi-step dependency graphs to be version-controlled and tested as code.
 <!-- END_SECTION:daily_tip -->
 
 <br>
